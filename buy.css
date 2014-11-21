@@ -1,0 +1,188 @@
+body {
+	margin: 0;
+	background-color: #890c18;
+}
+h1 {
+	font-family: 'Ubuntu', Helvetica, sans-serif;
+	font-weight: 500;
+	font-size: 36px;
+	color: #222;
+	margin: 0px;
+}
+h3 {
+	font-family: Corbel;
+	font-size: 16px;
+	color: #222;
+	margin: 0px;
+}
+p {
+	font-family: 'Ubuntu', Helvetica, sans-serif;
+	font-size: 24px;
+	color: #222;
+	margin: 0px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline;
+	float: left;
+}
+.menuItem {
+	display: block;
+    width: 180px;
+	height: 50px;
+	font-family: Corbel;
+	font-size: 24px;
+	color: #CCCCCC;
+	text-decoration: none;
+	text-align: center;
+	line-height: 48px;
+}
+.menuOptionHighlighted {
+	color: #6D6D6D;
+}
+
+#headerBack {
+	width: 100%;
+	background-color: #9c1421;
+	border-bottom: 1px solid black;
+}
+#header {
+	height: 50px;
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#logo {
+	display: inline;
+	height: 50px;
+	width: 142px;
+	float: left;
+}
+#menuContainer {
+	display: inline;
+	width: 500px;
+}
+#background {
+	background-image: url("metalSlob.png");
+	background-position: 50% 0%;
+}
+#message {
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	height: 300px;
+	text-align: center;
+}
+#message h1 {
+	position: relative;
+	top: 140px;
+	font-size: 24px;
+	line-height: 150%;
+}
+#title {
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	text-align: center;
+	position: relative;
+	top: 30px;
+}
+#box {
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	height: 270px;
+}
+#phone {
+	display: inline-block;
+	width: 480px;
+	text-align: center;
+	position: relative;
+	top: 55px;
+	left: -15px;
+}
+#email {
+	display: inline-block;
+	width:480px;
+	position: relative;
+	left: 465px;
+	top: -33px;
+	text-align: center;
+}
+#disclaimerSales {
+	position: relative;
+	top: 70px;
+	left: 0px;
+}
+#footerBack {
+	width: 100%;
+	background-color: #890c18;
+	border-top: 1px solid black;
+}
+#footer {
+	height: 50px;
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#disclaimer {
+	color: #DB680F;
+	float: left;
+	font-size: 16px;
+	font-family: Corbel;
+	line-height: 0px;
+	position: relative;
+	top: 32px;
+}
+
+/**From this point forward, copy/paste from old CSS file.**/
+
+.language-menu {
+	position: relative;
+	display: inline;
+	float: right;
+	width: 80px;
+	height: 50px;
+}
+.language-text {
+	font-size: 16px;
+	font-family: Corbel;
+	color: #CCCCCC;
+	display: block;
+	position: relative;
+	top: 5px;
+	display: inline;
+}
+.flags-container {
+	position: relative;
+}
+.flag {
+	position: relative;
+	top: 5px;
+	left: 10px;
+}
+
+#social {
+	float: right;
+}
+#social img {
+	height: 32px;
+	width: 32px;
+	position: relative;
+	top: 9px;
+	left: -12px;
+}
+#social2 {
+	display: inline;
+}
+#social2 img {
+	height: 32px;
+	width: 40px;
+	position: relative;
+	top: 9px;
+	left: 0px;
+}

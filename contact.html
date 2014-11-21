@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Contact Information - CiD by Torio LLC</title>
+		<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic' rel='stylesheet' type='text/css'>
+		<link rel="icon" type="image/png" href="LogoHead.png" />
+		<meta name="description" content="Contact Information - Child in Danger Car Alarm System">
+		<link type="text/css" rel="stylesheet" href="contact.css "/>
+		<script type="text/javascript" src="jquery-1.11.1.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function () {
+				
+				$('#menuContainer a').hover(
+					function(){
+						$(this).addClass('menuOptionHighlighted');
+					},
+					function(){
+						$(this).removeClass('menuOptionHighlighted');
+					}
+				);
+				
+			});
+		</script>
+	</head>
+	<body>
+		<div id="headerBack">
+			<div id="header">
+				<img id="logo" src="LogoRed.png">
+				<div id="menuContainer">
+					<ul>
+						<li><a href="index.html" style="width:200px" class="menuItem">Overview</a></li>
+						<li><a href="specifications.html" class="menuItem">Specifications</a></li>
+						<li><a href="contact.html" style="width:180px" class="menuItem">Contact</a></li>
+						<li><a href="buy.html" style="width:80px" class="menuItem">Buy</a></li>
+					</ul>
+				</div>
+				<div class="language-menu"> 	<!--Direct copy/paste from old html, this div.-->
+					<div class="language-text">Language</div>
+					<div class="flags-container">
+						<a href="contact.html"><img class ="flag" src="gb.png" /></a>
+						<a href=""><img class ="flag" src="es.png" /></a>
+					</div>
+				</div>							<!--End of direct copy/paste.-->
+			</div>
+		</div>
+		<div id="background">
+			<div id="contact_banner"></div>
+			<div id="title">
+				<h1>Contact us at Torio LLC:</h1>
+			</div>
+			<div id="box">
+				<div id="phone">
+					<h1>Call us at:</h1>
+						<p>(787) 242-5107</p>
+						<p>(787) 463-9637</p>
+				</div>
+				<div id="email">
+					<h1>Or write us at:</h1>
+						<p>support@toriollc.com</p>
+				</div>
+				<h3 id="disclaimerSales">Personal installation package available for residents of Puerto Rico.</h3>
+			</div>
+		</div>
+		<div id="footerBack">
+			<div id="footer">
+				<div id="disclaimer">CiD is a patented product, produced and distributed by TorioLLC.</div>
+				<div id="social">	<!--Direct copy/paste from old html, this div.-->
+					<a href="https://www.facebook.com/TorioCID"><img class="FB" src="FBlogo.png"></a>
+					<div id="social2">
+						<img class="Twitter" src="Twitterlogo.png">
+					</div>
+				</div>				<!--End of direct copy/paste.-->
+			</div>
+		</div>
+	</body>
+</html>

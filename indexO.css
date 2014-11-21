@@ -1,0 +1,444 @@
+body {
+margin: 0;
+}
+div {
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+html {
+	background-color:  #F8F8F8;
+}
+a img{
+border:0;
+}
+h3 {
+	display: inline;
+	font-family: Corbel;
+	font-size: 96px;
+	color: #888888;
+	position: relative;
+	top: -10px;
+	text-shadow: 0 1px 0 #858585,
+		0 2px 1px #828282,
+		1px 3px 1px #797979,
+		1px 4px 2px #767676,
+		2px 5px 2px #737373,
+		2px 6px 3px #707070;
+}
+h1 {
+	font-family: 'Ubuntu', Helvetica, cursive, sans-serif;
+	font-weight: 700;
+	font-size: 42px;
+	color: #080808;
+	margin: 5px;
+}
+h2 {
+	font-family: 'Ubuntu', Helvetica, cursive, sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+	color: #080808;
+	margin: 5px;
+}
+h4 {
+	font-family: Corbel;
+	font-size: 24px;
+	color: #F8F8F8;
+	margin: 5px;
+}
+a {
+  color:inherit;
+  text-decoration: none;
+}
+.back-square-red {
+}
+.back-square-grey h2 {
+	position: relative;
+}
+#fixed_elements {
+	position: fixed;
+	z-index: 2;
+}
+#header_back {
+	width: 100%;
+	background-color: #101010;
+	border-bottom: 1px solid black;
+	position: fixed;
+}
+#header_left {
+	background-color: #404040;
+	background: linear-gradient(to right, #000000, #303030, #404040);
+	width: 0px;
+	height: 50px;
+	color: #10EE10;
+	font-size: 40px;
+	float: left;
+}
+#header {
+	height: 50px;
+	width: 960px;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #101010;
+}
+#header div {
+	display: inline;
+}
+#menu div {
+	margin: 0px 10px 0 10px;
+	font-family: Corbel;
+	font-size: 24px;
+	color: #888888;
+	position: relative;
+}
+#logo {
+	display: inline;
+	height: 50px;
+	width: 142px;
+}
+#logo img {
+	height: 50px;
+	width: 142px;
+}
+
+#header li {
+	height: 50px;
+	width: 60px;
+	display: inline;
+	background-color: #101010;
+	font-family: Corbel;
+	font-size: 24px;
+	color: #888888;
+	position: relative;
+	top: -60px;
+	left: 128px;
+	padding: 10px;
+	margin: 20px;
+}
+.top-menu-text {
+	transition: color 0.5s ease;
+	cursor: pointer;
+}
+.highlighted {
+	color: #ccc;
+}
+#left-most {
+	border-right: 1px solid brown;
+}
+#right-most {
+	border-left: 1px solid brown;
+}
+.vertical-separator {
+	height: auto;
+	border: 2px solid brown;
+	display: inline-block;
+}
+.buy-now {
+	padding: 5px;
+	background-color: #101010;
+	font-family: Corbel;
+	font-size: 24px;
+	color: #DE0C21;
+	display: inline;
+	position: relative;
+	top: -105px;
+	left: 725px;
+	cursor: pointer;
+	transition: color 0.5s ease;
+}
+.buy-highlighted {
+	color: #EF4321;
+}
+.language-text {
+	font-size: 16px;
+	font-family: Corbel;
+	color: #888888;
+	display: block;
+	position: relative;
+	display: inline;
+}
+.language-menu {
+	position: relative;
+	display: inline;
+	left: 775px;
+	top: -119px;
+}
+.flags-container {
+	position: relative;
+}
+.flag {
+	position: relative;
+	top: 21px;
+	left: -55px;
+}
+
+#limiter_back {
+	background-color: #F8F8F8;
+}
+#limiter {
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	position: relative;
+	top: -2340px;
+	height: 1849px;
+}
+#spacer {
+	height: 51px;
+}
+#spacer2 {
+	height: 200px;
+}
+#banner {
+	height: 100px;
+	width: 960px;
+		background-image: url("pieza2.png");
+		background-size: cover;
+		background-position: 50% 50%;
+	padding: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+.spacer {
+	height: 560px;
+}
+.mini-spacer {
+	height: 100px;
+}
+.contentOff {
+	display: none;
+}
+.slide1Content1 {
+	height: 540px;
+}
+.background {
+	top: 51px;
+	height: 540px;
+	background-color: #F8F8F8;
+}
+.slide1Background1 {
+	top: 51px;
+	height: 540px;
+		background-image: url("Candidate1.jpg");
+		background-size: cover;
+		background-position: 50% 50%;
+	position: relative;
+}
+.slide1Background2 {
+	top: 51px;
+	height: 540px;
+		background-image: url("negotiation.jpg");
+		background-size: cover;
+		background-position: 50% 85%;
+	position: relative;
+}
+.slide1Background3 {
+	top: 51px;
+	height: 540px;
+		background-image: url("Candidate3.jpg");
+		background-size: cover;
+		background-position: 50% 50%;
+	position: relative;
+}
+.slide1Content2 {
+	height: 540px;
+	background-color: #D0D020;
+		background-image: url("negotiation.jpg");
+		background-size: cover;
+		background-position: 50% 50%;
+}
+.slide1Content3 {
+	height: 540px;
+	background-color: #D0D020;
+		background-image: url("pieza.png");
+		background-size: cover;
+		background-position: 50% 50%;
+}
+#slide1header {
+	background-color: rgba(157,19,34,0.8);
+	height: 55px;
+	width: 400px;
+	text-align: center;
+	position: relative;
+	top: 40px;
+}
+#slide1header h1 {
+	font-size: 36px;
+	color: #F8F8F8;
+	font-family: 'Ubuntu', Helvetica, cursive, sans-serif;
+	font-weight: 500;
+	position: relative;
+	margin: 5px;
+	top: 5px;
+}
+#slide1body {
+	background-color: rgba(88,88,88,0.8);
+	height: 100px;
+	width: 400px;
+	text-align: center;
+	position: relative;
+	left: 35px;
+	top: 30px;
+}
+#slide1body h1 {
+	font-size: 36px;
+	color: #F8F8F8;
+	font-family: 'Ubuntu', Helvetica, cursive, sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	position: relative;
+	margin: 5px;
+	top: 5px;
+}
+	.slide1message {
+		position: relative;
+		top: 315px;
+		background-color: rgba(88,88,88,0.8);
+		height: 50px;
+		width: 420px;
+		text-align: center;
+		transition: width 0.3s ease;
+	}
+	.slide1messageText {
+		font-size: 36px;
+		color: #F8F8F8;
+		font-family: 'Ubuntu', Helvetica, cursive, sans-serif;
+		font-weight: 400;
+		font-style: italic;
+		position: relative;
+		margin: 5px;
+		top: 5px;
+	}
+	#slide1message2 {
+		font-size: 36px;
+		color: #F8F8F8;
+		font-family: "MV Boli", cursive, sans-serif;
+		position: relative;
+		margin: 5px;
+		display: none;
+	}
+	#slide1message3 {
+		font-size: 36px;
+		color: #F8F8F8;
+		font-family: "MV Boli", cursive, sans-serif;
+		position: relative;
+		margin: 5px;
+		display: none;
+	}
+
+#message1 h1 {
+	background-color: #9D1322;
+	opacity: 0.5;
+	position: relative;
+	top: 100px;
+	left: 330px;
+	height: auto;
+	width: 500px;
+}
+.slide {
+	width: 960px;
+	height: 320px;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 0;
+}
+.slideBackground {
+	height: 360px;
+}
+#slide2 {
+	background-image: url("background1S.png");
+	background-size: cover;
+	background-position: 50% 50%;
+	background-size: 100%;
+	position: relative;
+	top: 401px;
+}
+#slide3 {
+	background-image: url("powerLock.jpg");
+	background-size: cover;
+	background-position: 50% 60%;
+	background-size: 100%;
+	position: relative;
+	top: 746px;
+}
+#slide4 {
+	background-image: url("theft-thread.jpg");
+	background-size: cover;
+	background-position: 50% 40%;
+	background-size: 100%;
+	position: relative;
+	top: 1091px;
+}
+#slide5 {
+	background-image: url("tech.jpg");
+	background-size: cover;
+	background-position: 50% 50%;
+	background-size: 100%;
+	position: relative;
+	top: 1411px;
+}
+#slide6 {
+	background-image: url("driveFull.jpg");
+	background-size: cover;
+	background-position: 50% 70%;
+	background-size: 100%;
+	position: relative;
+	top: 1790px;
+}
+.square {
+	width: 960x;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+.square img {
+	float: left;
+	border: 20px solid #D8D8D8;
+}
+.square_text {
+	width: 420px;
+	position: relative;
+	display: inline-block;
+	top: 15px;
+}
+#slide1 {
+}
+
+#footer_back {
+	width: 100%;
+	background-color: #9c1421;
+	border-top: 1px solid black;
+}
+#footer {
+	height: 50px;
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#footer img {
+	float: left;
+	height: 50px;
+	width: 155px;
+}
+#social {
+	float: right;
+}
+#social img {
+	height: 32px;
+	width: 32px;
+	position: relative;
+	top: 9px;
+	left: -12px;
+}
+#social2 {
+	display: inline;
+}
+#social2 img {
+	height: 32px;
+	width: 40px;
+	position: relative;
+	top: 9px;
+	left: 0px;
+}

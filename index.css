@@ -1,0 +1,310 @@
+body {
+	margin: 0;
+	background-color: #890c18;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline;
+	float: left;
+}
+div {
+	padding: 0px;
+}
+h1 {
+	font-family: 'Ubuntu', Helvetica, cursive, sans-serif;
+	font-weight: 700;
+	font-size: 42px;
+	color: #222;
+	margin: 5px;
+}
+h2 {
+	font-family: 'Ubuntu', Helvetica, cursive, sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+	color: #222;
+	margin: 5px;
+}
+.menuItem {
+	display: block;
+    width: 180px;
+	height: 50px;
+	font-family: Corbel;
+	font-size: 24px;
+	color: #CCCCCC;
+	text-decoration: none;
+	text-align: center;
+	line-height: 48px;
+	transition: color 0.5s ease;
+	cursor: pointer;
+}
+.menuOptionHighlighted {
+	color: #6D6D6D;
+}
+.introBackground {
+	height: 540px;
+	background-color: #F8F8F8;
+	position: relative;
+}
+
+.slide1Background1 {
+	height: 540px;
+		background-image: url("Candidate1.jpg");
+		background-size: cover;
+		background-position: 50% 50%;
+	position: relative;
+}
+.slide1Background2 {
+	height: 540px;
+		background-image: url("negotiation.jpg");
+		background-size: cover;
+		background-position: 50% 85%;
+	position: relative;
+}
+.slide1Background3 {
+	height: 540px;
+		background-image: url("Candidate3.jpg");
+		background-size: cover;
+		background-position: 50% 50%;
+	position: relative;
+}
+.slide1Content1 {
+	height: 540px;
+}
+.slide1Content2 {
+	height: 540px;
+	background-color: #D0D020;
+		background-image: url("negotiation.jpg");
+		background-size: cover;
+		background-position: 50% 50%;
+}
+.slide1Content3 {
+	height: 540px;
+	background-color: #D0D020;
+		background-image: url("pieza.png");
+		background-size: cover;
+		background-position: 50% 50%;
+}
+	.slide1message {
+		position: relative;
+		top: 315px;
+		background-color: rgba(88,88,88,0.8);
+		height: 50px;
+		width: 420px;
+		text-align: center;
+		transition: width 0.3s ease;
+	}
+	.slide1messageText {
+		font-size: 36px;
+		color: #F8F8F8;
+		font-family: 'Ubuntu', Helvetica, cursive, sans-serif;
+		font-weight: 400;
+		font-style: italic;
+		position: relative;
+		margin: 5px;
+		top: 5px;
+	}
+
+.slideBackground {
+	height: 360px;
+}
+.spacer {
+	height: 560px;
+}
+.square {
+	width: 960x;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+.backSquareLine h2 {
+	position: relative;
+}
+#headerBack {
+	width: 100%;
+	background-color: #9c1421;
+	border-bottom: 1px solid black;
+}
+#header {
+	height: 50px;
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#logo {
+	display: inline;
+	height: 50px;
+	width: 142px;
+	float: left;
+}
+#menuContainer {
+	display: inline;
+	width: 500px;
+}
+#background {
+	width: auto;
+	height: auto;
+	background-image: url("metalSlob.png");
+	background-position: 50% 0%;
+}
+#content {
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	position: relative;
+	top: -2340px;
+	height: 1849px;
+}
+#spacer {
+	height: 200px;
+}
+#footerBack {
+	width: 100%;
+	background-color: #890c18;
+	border-top: 1px solid black;
+}
+#footer {
+	height: 50px;
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#disclaimer {
+	color: #DB680F;
+	float: left;
+	font-size: 16px;
+	font-family: Corbel;
+	line-height: 0px;
+	position: relative;
+	top: 32px;
+}
+
+#slide2 {
+	background-image: url("background1S.png");
+	background-size: cover;
+	background-position: 50% 50%;
+	background-size: 100%;
+	position: relative;
+	top: 350px;
+}
+#slide3 {
+	background-image: url("powerLock.jpg");
+	background-size: cover;
+	background-position: 50% 60%;
+	background-size: 100%;
+	position: relative;
+	top: 705px;
+}
+#slide4 {
+	background-image: url("theft-thread.jpg");
+	background-size: cover;
+	background-position: 50% 40%;
+	background-size: 100%;
+	position: relative;
+	top: 1070px;
+}
+#slide5 {
+	background-image: url("tech.jpg");
+	background-size: cover;
+	background-position: 50% 50%;
+	background-size: 100%;
+	position: relative;
+	top: 1385px;
+}
+#slide6 {
+	background-image: url("driveFull.jpg");
+	background-size: cover;
+	background-position: 50% 70%;
+	background-size: 100%;
+	position: relative;
+	top: 1730px;
+}
+
+#slide1header {
+	background-color: rgba(157,19,34,0.8);
+	height: 55px;
+	width: 400px;
+	text-align: center;
+	position: relative;
+	top: 40px;
+}
+#slide1header h1 {
+	font-size: 36px;
+	color: #F8F8F8;
+	font-family: 'Ubuntu', Helvetica, cursive, sans-serif;
+	font-weight: 500;
+	position: relative;
+	margin: 5px;
+	top: 5px;
+}
+#slide1body {
+	background-color: rgba(88,88,88,0.8);
+	height: 100px;
+	width: 400px;
+	text-align: center;
+	position: relative;
+	left: 35px;
+	top: 30px;
+}
+#slide1body h1 {
+	font-size: 36px;
+	color: #F8F8F8;
+	font-family: 'Ubuntu', Helvetica, cursive, sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	position: relative;
+	margin: 5px;
+	top: 5px;
+}
+
+/**From this point forward, copy/paste from old CSS file.**/
+
+.language-menu {
+	position: relative;
+	display: inline;
+	float: right;
+	width: 80px;
+	height: 50px;
+}
+.language-text {
+	font-size: 16px;
+	font-family: Corbel;
+	color: #CCCCCC;
+	display: block;
+	position: relative;
+	top: 5px;
+	display: inline;
+}
+.flags-container {
+	position: relative;
+}
+.flag {
+	position: relative;
+	top: 5px;
+	left: 10px;
+}
+
+#social {
+	float: right;
+}
+#social img {
+	height: 32px;
+	width: 32px;
+	position: relative;
+	top: 9px;
+	left: -12px;
+}
+#social2 {
+	display: inline;
+}
+#social2 img {
+	height: 32px;
+	width: 40px;
+	position: relative;
+	top: 9px;
+	left: 0px;
+}
